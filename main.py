@@ -13,7 +13,7 @@ import plotly.express as px
 
 
 # Plotly 차트 출력 (Jupyter 환경일 때는 fig.show())
-fig.show()
+st.plotly_chart(fig)
 
 import streamlit as st
 import pandas as pd
