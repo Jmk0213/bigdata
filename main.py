@@ -38,4 +38,4 @@ y_col = st.selectbox("Y축 선택", df.columns)
 fig = px.bar(df, x=x_col, y=y_col, title=f"{x_col} vs {y_col}")
 st.plotly_chart(fig)
 
-streamlit run app.py
+
