@@ -11,8 +11,6 @@ print(df.head())
 
 import plotly.express as px
 
-# 예시: 'Category'별 'Sales' 합계
-fig = px.bar(df, x='Category', y='Sales', title='Category별 Sales 합계', color='Category')
 
 # Plotly 차트 출력 (Jupyter 환경일 때는 fig.show())
 fig.show()
