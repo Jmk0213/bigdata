@@ -1,4 +1,6 @@
+import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # Google Drive의 파일 URL
 url = 'https://drive.google.com/uc?export=download&id=1pwfON6doXyH5p7AOBJPfiofYlni0HVVY'
@@ -9,15 +11,10 @@ df = pd.read_csv(url)
 # 데이터 확인
 print(df.head())
 
-import plotly.express as px
-
 
 # Plotly 차트 출력 (Jupyter 환경일 때는 fig.show())
 st.plotly_chart(fig)
 
-import streamlit as st
-import pandas as pd
-import plotly.express as px
 
 st.title("📊 Plotly 시각화 웹앱")
 
