@@ -11,11 +11,6 @@ df = pd.read_csv(url)
 # 데이터 확인
 print(df.head())
 
-
-# Plotly 차트 출력 (Jupyter 환경일 때는 fig.show())
-st.plotly_chart(fig)
-
-
 st.title("📊 Plotly 시각화 웹앱")
 
 # 데이터 불러오기
